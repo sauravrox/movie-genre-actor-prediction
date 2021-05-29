@@ -1,1 +1,3 @@
 # movie-genre-actor-prediction
+This is one of the first projects that I did while learing model development and image recognition. A model is developed which predicts the movie genre by taking the movie poster as input. It also shows the actor name according to the trained data. If the face is not recognised, it shows 'Unknown Person'.
+The model has been trained with only 1500 rows. For more accuracy, train data should be increased. The train file consists of 27 columns where the points are given to each of the genre. Training is provided to the model by providing the file that is poster name and the points to each genre it belongs to. The face recognition is done by using the called module face_recognition. This can also be done in a custom way.
